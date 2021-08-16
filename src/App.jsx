@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import Nav from './Components/nav';
 import Inicio from './Components/Inicio';
 import {
   BrowserRouter as Router,
@@ -17,7 +15,6 @@ export default function App() {
         <Inicio />
       </Route>
       <Route path="/">
-        <Nav />
       </Route>
     </Switch>
     </Router>
