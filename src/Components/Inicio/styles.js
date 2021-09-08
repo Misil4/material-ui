@@ -37,8 +37,18 @@ export const styles = () => ({
       color: "black",
     },
     footer: {
-      background: "#00022E",
+      background: "#000000",
       height: "50px",
       color: "#FC86AA",
     },
+    Hola : {
+      position: "relative",
+      width: "100%",
+      height: "720px !important",
+      fontSize: "8px",
+    },
+    Flags : {
+      position: "absolute",
+      right: "8rem",
+    }
   });

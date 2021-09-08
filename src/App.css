@@ -9,11 +9,15 @@
 .header,
 .footer {
   display: flex;
-  background: #00022e;
-  height: 50px;
+  position: relative;
+  bottom: 1rem;
+  background: #1b1c1d;
+  height: 55px;
+  width: 110%;
   align-items: center;
   justify-content: center;
-  color: #fc86aa;
+  color: red !important;
+  text-align: center;
 }
 
 .icon {
@@ -50,4 +54,10 @@
 
 .opened {
   width: 240px;
+}
+.Hola {
+  position: absolute;
+  right: 15rem;
+  bottom: 5rem;
+  text-align: center;
 }
